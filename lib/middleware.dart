@@ -12,3 +12,4 @@ Future _saveList(Store<AppState> store, SaveListAction action, NextDispatcher ne
   await Future.sync(() => Duration(seconds: 3)); // Simulate saving the list to disk
   next(action);
 }
+// TODO: Add sqflite storage 
